@@ -3,8 +3,7 @@
 BallotChain is a next-generation **decentralized voting platform** built on the Ethereum blockchain. Designed to revolutionize the way elections are conducted, it brings **unparalleled transparency, security, and trust** to the democratic process.  
 
 Unlike traditional voting systems that rely on centralized authorities, BallotChain leverages **smart contracts** to ensure every vote is **immutable, verifiable, and tamper-proof**. From small community polls to large-scale institutional elections, BallotChain adapts seamlessly to guarantee fairness and accountability.  
-
-Originally developed as a final-year academic project, BallotChain has evolved into a **scalable and production-ready solution**, showcasing how blockchain can truly transform digital governance.  
+ 
 
 ---
 
