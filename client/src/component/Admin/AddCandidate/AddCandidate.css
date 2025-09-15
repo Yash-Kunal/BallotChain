@@ -1,0 +1,131 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #222831;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #393e46;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #393e46;
+  background-color: #222831;
+  color: #e0e0e0;
+}
+tr:nth-child(even) {
+  background-color: #393e46;
+}
+tr:hover {
+  background-color: #181818;
+  color: #ffd700;
+}
+.candidate-list {
+  background-color: #181818;
+  color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #393e46;
+  padding: 1em 2em;
+  margin: 2em 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.candidate-list li {
+  background-color: #222831;
+  color: #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 0.75em;
+  padding: 0.75em 1em;
+  border: 1px solid #393e46;
+  font-size: 1.1em;
+  list-style: none;
+  transition: background 0.3s, color 0.3s;
+}
+.candidate-list li:hover {
+  background-color: #393e46;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+.candidate-list {
+  background-color: #222831;
+  color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #393e46;
+  padding: 1em 2em;
+  margin: 2em 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.candidate-list li {
+  background-color: #393e46;
+  color: #00fff5;
+  border-radius: 6px;
+  margin-bottom: 0.75em;
+  padding: 0.75em 1em;
+  border: 1px solid #00fff5;
+  font-size: 1.1em;
+  list-style: none;
+  transition: background 0.3s;
+}
+.candidate-list li:hover {
+  background-color: #222831;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+.form {
+  width: fit-content;
+  margin: 5px;
+  padding: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  background-color: #222831;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #393e46;
+}
+.input-ac {
+  margin: 0.5em;
+  margin-left: 0;
+  padding: 1em;
+  display: block;
+  width: 333px;
+  background-color: #393e46;
+  color: #e0e0e0;
+  border: 1px solid #00fff5;
+  border-radius: 6px;
+}
+.label-ac {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+  color: #00fff5;
+}
+.btn-add {
+  width: 25%;
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+  background-color: #00fff5;
+  color: #222831;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-add:hover {
+  background-color: #ffd700;
+  color: #222831;
+}
+
+@media all and (max-width: 400px) {
+  .input-ac,
+  .btn-add {
+    width: 100%;
+  }
+  .btn-add {
+    float: inline-start;
+  }
+}

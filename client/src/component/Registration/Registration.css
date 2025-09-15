@@ -1,0 +1,48 @@
+.div-li {
+  display: inline-grid;
+}
+.input-r {
+  margin: 0.5em;
+  margin-left: 0;
+  padding: 1em;
+  display: block;
+  overflow: scroll;
+  background-color: #393e46;
+  color: #e0e0e0;
+  border: 1px solid #00fff5;
+  border-radius: 6px;
+}
+.label-r {
+  margin: 0.1em;
+  padding: 0.5em;
+  display: block;
+  color: #00fff5;
+}
+.btn-add {
+  width: 50%;
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+  background-color: #00fff5;
+  color: #222831;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-add:hover {
+  background-color: #ffd700;
+  color: #222831;
+}
+.note {
+  width: 90%;
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.5em;
+  background-color: #222831;
+  color: #e0e0e0;
+  border-radius: 6px;
+}

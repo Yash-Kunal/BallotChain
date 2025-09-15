@@ -1,0 +1,88 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #222831;
+  color: #e0e0e0;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #393e46;
+  background-color: #222831;
+  color: #e0e0e0;
+}
+tr:nth-child(even) {
+  background-color: #393e46;
+}
+.container-winner {
+  transition: ease all 0.75s;
+  background-color: #393e46;
+  border-radius: 7px;
+  width: 700px;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  overflow: auto;
+  color: #fafafa;
+}
+.winner-slogan {
+  padding: 7px 7px 7px 1px;
+  color: #ffd700;
+  font-size: 1.5em;
+  margin: 7px 0px;
+  text-align: justify;
+  overflow: auto;
+}
+.winner-info {
+  width: 73%;
+  max-height: 150px;
+  display: inline-block;
+  margin-right: 1%;
+  overflow: auto;
+}
+.winner-votes {
+  width: 25%;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 1%;
+}
+.winner-tag {
+  text-align: left;
+  color: #00fff5;
+}
+.votes-tag {
+  text-align: left;
+  color: #e0e0e0;
+}
+.vote-count {
+  margin-top: 11px;
+  padding: 3px;
+  font-size: 57px;
+  overflow-y: auto;
+  text-align: center;
+  color: #00fff5;
+}
+@media all and (max-width: 850px) {
+  .container-winner {
+    width: 700px;
+  }
+}
+@media all and (max-width: 750px) {
+  .container-winner {
+    width: 600px;
+  }
+}
+@media all and (max-width: 650px) {
+  .container-winner {
+    width: 400px;
+  }
+}
+@media all and (max-width: 400px) {
+  .container-winner {
+    width: 300px;
+  }
+}
