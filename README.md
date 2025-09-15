@@ -67,3 +67,12 @@ cd BallotChain
 
 # Install dependencies
 npm install -g truffle ganache-cli
+
+# inside BallotChain directory
+truffle migrate
+# use --reset for redeployments
+
+# Launch frontend
+cd client
+npm install
+npm start
